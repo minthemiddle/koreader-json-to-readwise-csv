@@ -6,6 +6,7 @@ Simple script to convert highlights from the KOReader (saved as JSON file for a 
 
 - Make sure that `PHP` (5.3+) is installed (Mac: `brew install php`)
 - Git clone this repo
+- Create conversion folder, e.g. `mkdir conversion`
 - Copy JSON file into `conversion` folder
 - `php main.php`
 - This will convert the JSON (with any name) into a file called `output.csv` in the `conversion` folder
